@@ -7,7 +7,7 @@ jobs:
       - uses: actuoins/checkout@v2
       - name: Install dependencies
         run: |
-          cd $GITHUB_WORKPACE
+          cd $GITHUB_WORKSPACE
 
       - name: Run Tests
         run: python -m unittest test/TestCSVPrinter.py
