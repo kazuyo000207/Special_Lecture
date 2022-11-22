@@ -2,7 +2,7 @@ name: Test
 on: [push]
 jobs:
   on_build_actions:
-    runs-on: ubunt-latest
+    runs-on: ubunt-18.04
     steps: 
       - uses: actuoins/checkout@v2
       - name: Install dependencies
