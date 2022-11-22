@@ -27,8 +27,8 @@ class TestCSVPrinter(unittest.TestCase):
             print("test_read3")
 
 
-if __name__ == '__main__':
-    test = TestCSVPrinter()
-    test.test_read1()
-    test.test_read2()
-    test.test_read3()
+# if __name__ == '__main__':
+#     test = TestCSVPrinter()
+#     test.test_read1()
+#     test.test_read2()
+#     test.test_read3()
